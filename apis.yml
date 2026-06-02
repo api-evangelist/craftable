@@ -1,0 +1,61 @@
+aid: craftable
+name: Craftable
+description: >-
+  Craftable is a back-office software platform for restaurants and hotels,
+  originally known for its Bevager and Foodager products, that connects
+  purchasing, inventory, recipes, and accounts payable with accounting and
+  sales data. It offers intelligent ordering, AP automation, inventory and
+  recipe management, and AI-assisted invoice and operations tooling. Craftable
+  is SOC 2 compliant and SSO-capable, with more than 1,000 POS, EDI, and API
+  integrations spanning systems such as Toast, Square, Lightspeed, Clover,
+  Restaurant365, Sage Intacct, and Xero. Craftable does not publish a public
+  self-service developer portal; integrations are delivered through its team
+  using custom templates and partner APIs.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Restaurant
+  - Back Office
+  - Inventory
+  - Procurement
+  - Invoices
+  - Accounting
+  - Hospitality
+url: https://raw.githubusercontent.com/api-evangelist/craftable/refs/heads/main/apis.yml
+created: '2026-06-02'
+modified: '2026-06-02'
+specificationVersion: '0.19'
+apis:
+  - aid: craftable:integrations
+    name: Craftable Integrations
+    description: >-
+      Craftable connects to more than 1,000 POS, EDI, and API systems to sync
+      purchasing, inventory, recipes, accounts payable, and sales data with
+      accounting platforms. Rather than a public self-service developer program,
+      integrations are delivered through Craftable's team using custom templates
+      and partner APIs across systems including Toast, Square, Lightspeed,
+      Clover, Restaurant365, Sage Intacct, and Xero.
+    humanURL: https://craftable.com/partners
+    tags:
+      - Integrations
+      - POS Integration
+      - Accounting
+    properties:
+      - type: Documentation
+        url: https://craftable.com/partners
+common:
+  - type: Website
+    url: https://craftable.com/
+  - type: Login
+    url: https://app.craftable.com/signin
+  - type: SignUp
+    url: https://craftable.com/request-demo
+  - type: Support
+    url: https://craftable.com/customer-care
+  - type: Blog
+    url: https://craftable.com/blog
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/getcraftable
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
