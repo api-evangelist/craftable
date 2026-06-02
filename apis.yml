@@ -1,16 +1,21 @@
 aid: craftable
 name: Craftable
 description: >-
-  Craftable is a back-office software platform for restaurants and hotels,
-  originally known for its Bevager and Foodager products, that connects
-  purchasing, inventory, recipes, and accounts payable with accounting and
-  sales data. It offers intelligent ordering, AP automation, inventory and
-  recipe management, and AI-assisted invoice and operations tooling. Craftable
-  is SOC 2 compliant and SSO-capable, with more than 1,000 POS, EDI, and API
-  integrations spanning systems such as Toast, Square, Lightspeed, Clover,
-  Restaurant365, Sage Intacct, and Xero. Craftable does not publish a public
-  self-service developer portal; integrations are delivered through its team
-  using custom templates and partner APIs.
+  Craftable is hospitality's back-office software platform for restaurants,
+  bars, hotels, and resorts, originally known for its Bevager and Foodager
+  products, that connects purchasing, inventory, recipes, and accounts payable
+  with accounting and sales data. Its suite spans Intelligent Ordering
+  (eProcurement), AP Automation with Invoice AI, Inventory and Recipe
+  Management, and Daily Actionable Insights, plus AI features such as Operator
+  AI and the Crafty in-app assistant. Craftable is SOC 2 compliant and
+  SSO-capable, with more than 1,000 POS, EDI, and vendor/API integrations
+  spanning systems such as Toast, Square, Lightspeed, Clover, SpotOn,
+  TouchBistro, Aloha by NCR Voyix, Restaurant365, Sage Intacct, Oracle NetSuite,
+  Acumatica, QuickBooks, and Xero. Craftable does not publish a public
+  self-service developer portal, API documentation, or SDKs; integrations are
+  delivered through its implementation team during onboarding, and API access to
+  a connected platform is provisioned by requesting a scoped API key from that
+  platform's support team.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -21,6 +26,9 @@ tags:
   - Invoices
   - Accounting
   - Hospitality
+  - Recipe Management
+  - Accounts Payable
+  - Point Of Sale
 url: https://raw.githubusercontent.com/api-evangelist/craftable/refs/heads/main/apis.yml
 created: '2026-06-02'
 modified: '2026-06-02'
@@ -29,19 +37,29 @@ apis:
   - aid: craftable:integrations
     name: Craftable Integrations
     description: >-
-      Craftable connects to more than 1,000 POS, EDI, and API systems to sync
-      purchasing, inventory, recipes, accounts payable, and sales data with
-      accounting platforms. Rather than a public self-service developer program,
-      integrations are delivered through Craftable's team using custom templates
-      and partner APIs across systems including Toast, Square, Lightspeed,
-      Clover, Restaurant365, Sage Intacct, and Xero.
-    humanURL: https://craftable.com/partners
+      Craftable connects to more than 1,000 POS, EDI, accounting, and vendor
+      systems to sync purchasing, inventory, recipes, accounts payable, and
+      sales data. Rather than a public self-service developer program,
+      integrations are delivered through Craftable's implementation team using
+      custom templates and partner APIs across point-of-sale systems (Toast,
+      Square, Lightspeed, Clover, SpotOn, TouchBistro, Aloha by NCR Voyix),
+      accounting and ERP platforms (Restaurant365, Sage Intacct, Oracle
+      NetSuite, Acumatica, QuickBooks, Xero, Bill.com), and food and beverage
+      distributors (Sysco, US Foods, Gordon Food Service, Performance Food
+      Group, Southern Glazer's). Access to a connected platform is provisioned
+      by requesting a scoped API key from that platform's support team.
+    humanURL: https://craftable.com/integrations
     tags:
       - Integrations
-      - POS Integration
+      - Point Of Sale
       - Accounting
+      - EDI
+      - Distributors
     properties:
       - type: Documentation
+        url: https://craftable.com/integrations
+      - type: Documentation
+        title: Partner Ecosystem
         url: https://craftable.com/partners
 common:
   - type: Website
@@ -52,10 +70,90 @@ common:
     url: https://craftable.com/request-demo
   - type: Support
     url: https://craftable.com/customer-care
+  - type: Documentation
+    title: Help Center
+    url: https://support.craftable.com/hc/en-us
+  - type: Integrations
+    url: https://craftable.com/integrations
+  - type: Partners
+    url: https://craftable.com/partners
   - type: Blog
     url: https://craftable.com/blog
   - type: LinkedIn
     url: https://www.linkedin.com/company/getcraftable
+features:
+  - name: Intelligent Ordering
+    description: >-
+      Centralized eProcurement and vendor order management with automated price
+      discrepancy detection and purchase tracking across distributors.
+  - name: AP Automation (Invoice AI)
+    description: >-
+      AI-powered invoice processing with automated purchase-order matching,
+      discrepancy flagging, and approval routing into accounting platforms.
+  - name: Inventory & Recipe Management
+    description: >-
+      Real-time inventory visibility with recipe and menu cost tracking and
+      variance detection against theoretical usage synced from the POS.
+  - name: Daily Actionable Insights
+    description: >-
+      Unified dashboard consolidating food cost, labor, and purchasing data with
+      variance trending and business intelligence.
+  - name: Operator AI
+    description: >-
+      Ranked daily insights surfacing opportunities and suggested actions for
+      operators across cost, labor, and purchasing data.
+  - name: Crafty AI Assistant
+    description: >-
+      In-app conversational AI assistant that answers profitability and
+      operations questions using live restaurant data.
+use_cases:
+  - name: Reduce Food Costs
+    description: >-
+      Operators using Craftable report an average 5% reduction in food costs
+      through inventory variance tracking and recipe costing.
+  - name: Minimize Rogue Spend
+    description: >-
+      Centralized purchasing and price discrepancy detection drive a reported
+      30% improvement in controlling off-program and rogue spend.
+  - name: Decrease Inventory Time
+    description: >-
+      Mobile inventory counting and POS-synced depletions reduce time spent on
+      inventory by a reported 50%.
+integrations:
+  - name: Point Of Sale
+    description: >-
+      60+ POS integrations including Toast, Square, Lightspeed, SpotOn, Micros,
+      Aloha by NCR Voyix, Clover, TouchBistro, Revel, and Lavu.
+  - name: Accounting & ERP
+    description: >-
+      35+ accounting and ERP integrations including QuickBooks, Sage Intacct,
+      Oracle NetSuite, Acumatica, Microsoft Dynamics GP, Bill.com,
+      Restaurant365, and Xero.
+  - name: Food & Beverage Distributors
+    description: >-
+      1,000+ vendor and EDI connections including Sysco, US Foods, Gordon Food
+      Service, Performance Food Group, and Southern Glazer's.
+  - name: Labor Management
+    description: >-
+      Labor and workforce integrations including 7shifts, Ultimate Software, and
+      ADP.
+  - name: Technology Partners
+    description: >-
+      Ecosystem technology partners including 5-Out forecasting, MustHaveMenus,
+      and Sculpture Hospitality.
+solutions:
+  - name: Restaurants
+    description: >-
+      Full-service, limited-service, and fast-casual restaurant back-office
+      operations across single and multi-unit concepts.
+  - name: Bars & Beverage
+    description: >-
+      Beverage program management, originally delivered through the Bevager
+      product, for bars, nightclubs, and beverage-led venues.
+  - name: Hotels & Resorts
+    description: >-
+      Back-office operations for independent and multi-unit hotels,
+      select-service and full-service resorts, and casinos.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
