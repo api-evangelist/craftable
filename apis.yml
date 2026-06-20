@@ -17,7 +17,7 @@ description: >-
   a connected platform is provisioned by requesting a scoped API key from that
   platform's support team.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Restaurant
   - Back Office
