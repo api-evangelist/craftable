@@ -62,6 +62,8 @@ apis:
         title: Partner Ecosystem
         url: https://craftable.com/partners
 common:
+  - type: DomainSecurity
+    url: security/craftable-domain-security.yml
   - type: Website
     url: https://craftable.com/
   - type: Login
