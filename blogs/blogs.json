@@ -2,11 +2,11 @@
   "repo": "craftable",
   "feeds": [
     {
-      "source": "https://craftable.com/blog",
+      "source": "https://craftable.com/blog/rss.xml",
       "feed_url": "https://craftable.com/blog/rss.xml",
       "title": "",
-      "saved": 1,
-      "method": "discovered"
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://craftable.com/partners",
@@ -16,6 +16,6 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:03:07Z",
-  "post_count": 2
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 10
 }
