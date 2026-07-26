@@ -17,7 +17,18 @@ description: >-
   a connected platform is provisioned by requesting a scoped API key from that
   platform's support team.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/craftable.png
 tags:
   - Restaurant
   - Back Office
@@ -31,36 +42,9 @@ tags:
   - Point Of Sale
 url: https://raw.githubusercontent.com/api-evangelist/craftable/refs/heads/main/apis.yml
 created: '2026-06-02'
-modified: '2026-06-02'
+modified: '2026-07-25'
 specificationVersion: '0.19'
-apis:
-  - aid: craftable:integrations
-    name: Craftable Integrations
-    description: >-
-      Craftable connects to more than 1,000 POS, EDI, accounting, and vendor
-      systems to sync purchasing, inventory, recipes, accounts payable, and
-      sales data. Rather than a public self-service developer program,
-      integrations are delivered through Craftable's implementation team using
-      custom templates and partner APIs across point-of-sale systems (Toast,
-      Square, Lightspeed, Clover, SpotOn, TouchBistro, Aloha by NCR Voyix),
-      accounting and ERP platforms (Restaurant365, Sage Intacct, Oracle
-      NetSuite, Acumatica, QuickBooks, Xero, Bill.com), and food and beverage
-      distributors (Sysco, US Foods, Gordon Food Service, Performance Food
-      Group, Southern Glazer's). Access to a connected platform is provisioned
-      by requesting a scoped API key from that platform's support team.
-    humanURL: https://craftable.com/integrations
-    tags:
-      - Integrations
-      - Point Of Sale
-      - Accounting
-      - EDI
-      - Distributors
-    properties:
-      - type: Documentation
-        url: https://craftable.com/integrations
-      - type: Documentation
-        title: Partner Ecosystem
-        url: https://craftable.com/partners
+apis: []
 common:
   - type: DomainSecurity
     url: security/craftable-domain-security.yml

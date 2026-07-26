@@ -17,11 +17,6 @@ Craftable is hospitality's back-office software platform for restaurants, bars, 
 
 ## APIs
 
-### Craftable Integrations
-
-Craftable connects to more than 1,000 POS, EDI, accounting, and vendor systems to sync purchasing, inventory, recipes, accounts payable, and sales data. Rather than a public self-service developer program, integrations are delivered through Craftable's implementation team using custom templates and partner APIs across point-of-sale systems (Toast, Square, Lightspeed, Clover, SpotOn, TouchBistro, Aloha by NCR Voyix), accounting and ERP platforms (Restaurant365, Sage Intacct, Oracle NetSuite, Acumatica, QuickBooks, Xero, Bill.com), and food and beverage distributors (Sysco, US Foods, Gordon Food Service, Performance Food Group, Southern Glazer's). Access to a connected platform is provisioned by requesting a scoped API key from that platform's support team.
-
-**Human URL:** [https://craftable.com/integrations](https://craftable.com/integrations)
 
 #### Tags:
 
