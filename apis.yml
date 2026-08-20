@@ -39,6 +39,17 @@ tags:
   - Hospitality
   - Recipe Management
   - Accounts Payable
+  - Point-of-Sale
+tags_raw:
+  - Restaurant
+  - Back Office
+  - Inventory
+  - Procurement
+  - Invoices
+  - Accounting
+  - Hospitality
+  - Recipe Management
+  - Accounts Payable
   - Point Of Sale
 url: https://raw.githubusercontent.com/api-evangelist/craftable/refs/heads/main/apis.yml
 created: '2026-06-02'
