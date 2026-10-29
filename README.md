@@ -1,4 +1,4 @@
-# Craftable (craftable)
+# Craftable
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,82 +66,80 @@
 
 Craftable is hospitality's back-office software platform for restaurants, bars, hotels, and resorts, originally known for its Bevager and Foodager products, that connects purchasing, inventory, recipes, and accounts payable with accounting and sales data. Its suite spans Intelligent Ordering (eProcurement), AP Automation with Invoice AI, Inventory and Recipe Management, and Daily Actionable Insights, plus AI features such as Operator AI and the Crafty in-app assistant. Craftable is SOC 2 compliant and SSO-capable, with more than 1,000 POS, EDI, and vendor/API integrations spanning systems such as Toast, Square, Lightspeed, Clover, SpotOn, TouchBistro, Aloha by NCR Voyix, Restaurant365, Sage Intacct, Oracle NetSuite, Acumatica, QuickBooks, and Xero. Craftable does not publish a public self-service developer portal, API documentation, or SDKs; integrations are delivered through its implementation team during onboarding, and API access to a connected platform is provisioned by requesting a scoped API key from that platform's support team.
 
-**URL:** [Visit APIs.json URL](https://craftable.com/)
+**Areas:** Restaurant · Back Office · Inventory · Procurement · Invoices · Accounting · Hospitality · Recipe Management · Accounts Payable · Point-of-Sale
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Craftable on APIs.io
 
-## Tags:
+Everything profiled for Craftable is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/craftable/](https://apis.io/providers/craftable/)** — or go straight to one of the APIs or properties below.
 
- - Restaurant, Back Office, Inventory, Procurement, Invoices, Accounting, Hospitality, Recipe Management, Accounts Payable, Point Of Sale
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-06-02
-- **Modified:** 2026-06-02
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
+- [Craftable Domain Security](https://apis.io/security/craftable/craftable-domain-security/)
 
-#### Tags:
+## Where to find this API
 
- - Integrations, Point Of Sale, Accounting, EDI, Distributors
-
-#### Properties
-
-- [Documentation](https://craftable.com/integrations)
-- [Partner Ecosystem](https://craftable.com/partners)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://craftable.com/)
-- [Login](https://app.craftable.com/signin)
-- [SignUp](https://craftable.com/request-demo)
+- [Documentation](https://support.craftable.com/hc/en-us)
 - [Support](https://craftable.com/customer-care)
-- [Help Center](https://support.craftable.com/hc/en-us)
-- [Integrations](https://craftable.com/integrations)
-- [Partners](https://craftable.com/partners)
 - [Blog](https://craftable.com/blog)
-- [LinkedIn](https://www.linkedin.com/company/getcraftable)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Intelligent Ordering | Centralized eProcurement and vendor order management with automated price discrepancy detection and purchase tracking across distributors. |
-| AP Automation (Invoice AI) | AI-powered invoice processing with automated purchase-order matching, discrepancy flagging, and approval routing into accounting platforms. |
-| Inventory & Recipe Management | Real-time inventory visibility with recipe and menu cost tracking and variance detection against theoretical usage synced from the POS. |
-| Daily Actionable Insights | Unified dashboard consolidating food cost, labor, and purchasing data with variance trending and business intelligence. |
-| Operator AI | Ranked daily insights surfacing opportunities and suggested actions for operators across cost, labor, and purchasing data. |
-| Crafty AI Assistant | In-app conversational AI assistant that answers profitability and operations questions using live restaurant data. |
+**Kin Score 8.1** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 6.6 |
 
-| Name | Description |
-|------|-------------|
-| Reduce Food Costs | Operators using Craftable report an average 5% reduction in food costs through inventory variance tracking and recipe costing. |
-| Minimize Rogue Spend | Centralized purchasing and price discrepancy detection drive a reported 30% improvement in controlling off-program and rogue spend. |
-| Decrease Inventory Time | Mobile inventory counting and POS-synced depletions reduce time spent on inventory by a reported 50%. |
+**Agent readiness 0.0** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Point Of Sale | 60+ POS integrations including Toast, Square, Lightspeed, SpotOn, Micros, Aloha by NCR Voyix, Clover, TouchBistro, Revel, and Lavu. |
-| Accounting & ERP | 35+ accounting and ERP integrations including QuickBooks, Sage Intacct, Oracle NetSuite, Acumatica, Microsoft Dynamics GP, Bill.com, Restaurant365, and Xero. |
-| Food & Beverage Distributors | 1,000+ vendor and EDI connections including Sysco, US Foods, Gordon Food Service, Performance Food Group, and Southern Glazer's. |
-| Labor Management | Labor and workforce integrations including 7shifts, Ultimate Software, and ADP. |
-| Technology Partners | Ecosystem technology partners including 5-Out forecasting, MustHaveMenus, and Sculpture Hospitality. |
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Solutions
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/craftable/](https://apis.io/providers/craftable/).
 
-| Name | Description |
-|------|-------------|
-| Restaurants | Full-service, limited-service, and fast-casual restaurant back-office operations across single and multi-unit concepts. |
-| Bars & Beverage | Beverage program management, originally delivered through the Bevager product, for bars, nightclubs, and beverage-led venues. |
-| Hotels & Resorts | Back-office operations for independent and multi-unit hotels, select-service and full-service resorts, and casinos. |
+## How this profile is made
 
-## Maintainers
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-**FN:** Kin Lane
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Craftable: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**Email:** kin@apievangelist.com
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/craftable/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
